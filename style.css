@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-image: url(images/backgroundimage.png)
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    color: #333;
+}
+
+button:hover {
+    background-color: #d62839;
+}
