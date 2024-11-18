@@ -1,27 +1,50 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
 }
 
-header {
-    background-image: url(../images/backgroundimage.jpg); 
-    background-size: cover;
-    background-position: center;
-    height: 100vh; 
-    color: white;
-    text-align: center;
+section {
+    margin: 2rem auto;
+    max-width: 900px; 
     padding: 2rem;
-}
-
-
-h1 {
-    font-size: 3rem;
-}
-
-h2 {
-    color: #333;
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 button:hover {
-    background-color: #d62839;
+    background-color: #d62839; 
+}
+
+#characters h2 {
+    margin-bottom: 1rem;
+    color: #222; 
+}
+
+#characters img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+#characters h3 {
+    margin: 0.5rem 0 0;
+}
+
+#trailer a img {
+    border-radius: 8px; 
+    transition: transform 0.3s;
+}
+
+#trailer a img:hover {
+    transform: scale(1.05); 
+}
+
+footer a:hover {
+    text-decoration: underline; 
 }
