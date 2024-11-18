@@ -4,11 +4,15 @@ body {
 }
 
 header {
-    background-image: url(images/backgroundimage.png);
+    background-image: url(../images/backgroundimage.jpg); 
     background-size: cover;
     background-position: center;
+    height: 100vh; 
     color: white;
+    text-align: center;
+    padding: 2rem;
 }
+
 
 h1 {
     font-size: 3rem;
